@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const body = document.body;
 
     // --- Configuration ---
-    const GEMINI_API_KEY = "AIzaSyDR7Pkbuuh5AP_6QUa82ISS_BGFEvuQFx4"; // <-- IMPORTANT: Replace with your key (or use a safer method)
+    const GEMINI_API_KEY = ""; // <-- IMPORTANT: Replace with your key (or use a safer method)
     const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${GEMINI_API_KEY}`;
     const MY_FULL_NAME = "Dev Gautam Roy"; // <-- Replace with your name
 
